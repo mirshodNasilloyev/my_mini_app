@@ -1,0 +1,3 @@
+DROP TABLE IF EXISTS users_tweets;
+DROP TABLE IF EXISTS tweets;
+DROP TABLE IF EXISTS users;
