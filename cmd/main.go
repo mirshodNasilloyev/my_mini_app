@@ -36,6 +36,8 @@ func main() {
 	})
 	fmt.Print("DB initialized\n")
 
+	minichatgo.Migrate()
+
 	if err != nil {
 		logrus.Fatalf("error connecting db %s", err.Error())
 	}

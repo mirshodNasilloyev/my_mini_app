@@ -1,3 +1,4 @@
 .env
 .idea
 congif.go
+docker-compose.yml

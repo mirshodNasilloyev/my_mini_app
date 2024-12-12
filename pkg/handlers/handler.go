@@ -29,7 +29,7 @@ func (h *Handler) InitHandlers() *gin.Engine {
 			tweets.GET("", h.getAllTweets)
 			tweets.GET("/:id", h.getTweetById)
 			tweets.DELETE("/:id", h.deleteTweet)
-			// 	tweets.PUT("/:id", h.updateTweet)
+			tweets.PUT("/:id", h.updateTweet)
 			// }
 		}
 

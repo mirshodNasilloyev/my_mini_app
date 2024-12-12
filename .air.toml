@@ -1,0 +1,14 @@
+[build]
+  cmd = "go build -o ./tmp/main ./cmd/main.go"
+  bin = "./tmp/main"
+  include_ext = ["go", "tmpl", "env"]
+  exclude_dir = ["tml", "schema", "vendor"]
+
+[runner]
+  cmd = "./tmp/main"
+  dir = "."
+  
+[watch]
+  include_ext = ["go", "tmpl", "env"]
+  exclude_dir = ["tml", "schema", "vendor"]
+  exclude_regex = ["\\.gitignore", "\\.DS_Store"]

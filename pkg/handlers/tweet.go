@@ -95,6 +95,6 @@ func (h *Handler) updateTweet(c *gin.Context) {
 	// 	return
 	// }
 	c.JSON(http.StatusOK, map[string]interface{}{
-		"message": "Method Under Developing",
+		"message": "Method Under DevelopingI",
 	})
 }
